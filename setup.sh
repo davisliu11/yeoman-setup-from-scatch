@@ -23,5 +23,10 @@ gem sources -l
 # 4. yo angular
 apt-get -y install autoconf nasm git
 
-echo Install completed. Now please input "yo angular" to start scaffolding a new project.
-echo Please be kindly reminded that it may cost a long time to download the dependencies.
+set ORIG_USER=`who am i | awk '{print $1}'`
+
+chown -R $ORIG_USER:$ORIG_USER $HOME
+
+echo
+echo OK. npm, yeoman, bower, grunt-cli, ruby was installed successfully. 
+echo Now please start scaffold a new project by command \"yo angular\".
