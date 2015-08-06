@@ -4,6 +4,8 @@ Please clone the repository and execute the "sudo ./setup.sh" in Ubuntu to autom
 
 The script will install npm, yeoman, bower, grunt-cli, ruby gems ... and configure the npm, ruby gem to use mirror repository in China.
 
+setup.sh为Yoman开发环境一键安装脚本(Ubuntu 14.04测试), 请执行sudo ./setup.sh开始安装
+
 ## 一. 安装与配置npm
 1. 安装npm
  sudo apt-get install npm
